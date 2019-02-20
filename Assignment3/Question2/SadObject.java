@@ -1,0 +1,16 @@
+package Assignment3.Question2;
+
+public class SadObject extends MoodyObject {
+
+    protected String getMood() {
+        return "sad";
+    }
+
+    public void expressFeelings() {
+        System.out.println("'wah' 'boo hoo' 'weep' 'sob' 'weep'");
+    }
+
+    public String toString() {
+        return "Subject cries a lot";
+    }
+}
